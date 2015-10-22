@@ -351,7 +351,6 @@ var stand = function (somePlayerHand) {
 		console.log('dealer wins!');
 		//dealer takes players money
 		dealer.money += player.bet;
-		player.money -= player.bet;
 		updateMunny();
 		updateBet()
 		player.bet = 0;
